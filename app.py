@@ -28,7 +28,7 @@ def user_input():
             OnlineSecurity = st.selectbox("Online Security", ['Yes', 'No', 'No internet service'])
             OnlineBackup = st.selectbox("Online Backup", ['Yes', 'No', 'No internet service'])
             DeviceProtection = st.selectbox("Device Protection", ['Yes', 'No', 'No internet service'])
-
+ 
         with col3:
             TechSupport = st.selectbox("Tech Support", ['Yes', 'No', 'No internet service'])
             StreamingTV = st.selectbox("Streaming TV", ['Yes', 'No', 'No internet service'])
